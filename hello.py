@@ -63,16 +63,25 @@
 # greet(name)
 
 #import modul
-import mod
+# import mod
 # from greet import greeting
 
-Mod = mod
+# Mod = mod
 #print greet.greeting("Egin")
 # print greeting("Wahid")
-mod.intro("Egin")
-print mod.tambah(3,4)
-print Mod.add(3,2)
-print Mod.panggil('Wahid')
+# mod.intro("Egin")
+# print mod.tambah(3,4)
+# print Mod.add(3,2)
+# print Mod.panggil('Wahid')
 
+#import module and class
+import mod
+from mod import obj
+
+# org = mod.obj.Orang()
+org = obj.Orang()
+
+org.intro('Egin')
+org.pekerjaan('Programmer')
 
 print "Good Bye!"
