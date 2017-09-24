@@ -54,4 +54,19 @@
 
 # greeting("Egin")
 
+# input value
+# name = raw_input("input nama :")
+
+# def greet(name):
+#     print "Hallo %s" %name
+
+# greet(name)
+
+#import modul
+from mod import greet
+from greet import greeting
+
+#print greet.greeting("Egin")
+print greeting("Wahid")
+
 print "Good Bye!"
