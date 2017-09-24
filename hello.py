@@ -63,10 +63,16 @@
 # greet(name)
 
 #import modul
-from mod import greet
-from greet import greeting
+import mod
+# from greet import greeting
 
+Mod = mod
 #print greet.greeting("Egin")
-print greeting("Wahid")
+# print greeting("Wahid")
+print mod.greeting("Egin")
+print mod.tambah(3,4)
+print Mod.add(3,2)
+print Mod.panggil('Wahid')
+
 
 print "Good Bye!"
