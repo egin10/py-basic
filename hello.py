@@ -69,7 +69,7 @@ import mod
 Mod = mod
 #print greet.greeting("Egin")
 # print greeting("Wahid")
-print mod.greeting("Egin")
+mod.intro("Egin")
 print mod.tambah(3,4)
 print Mod.add(3,2)
 print Mod.panggil('Wahid')
